@@ -1,0 +1,280 @@
+﻿body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,textarea,p,block 
+*{
+    padding: 0;
+    margin: 0 0px 0 0;
+}
+body{
+    background-color:rgb(237,237,237);
+    font-family:"Arial",Helvetica,Sans-Serif;
+    font-size:12px;
+}
+.wrapper
+{
+    width:950px;
+    margin:auto;
+}
+ .content
+ {
+     width:100%;
+     background-color:#F0FFFF;
+     border:1px solid rgb(224,224,224);
+ 
+     float:left;
+     margin-top:10px;
+     margin-bottom:8px;
+     min-height:400px;
+     
+     }   
+          
+     .menu
+     { 
+         background-color:#00CED1;
+         width:100%;
+         margin:0px 0px 10px;
+         border-radius:12px;
+         padding:0px;
+         height:158px;
+         color:rgb(243,243,243);  
+         
+     }
+     .navigation_first_item
+     {
+         border-left:0px;
+     }
+       
+       .navitem_s 
+       { float:left;
+         
+         height:40px;
+         background-color:rgb(14,79,114);
+         
+        }  
+   .menu ul
+   {    height: auto;
+        width:auto;
+        list-style:none;
+}
+       
+       .menu ul li
+       {
+           float:left;
+           display:block;
+           list-style:none;
+            
+           position:relative;
+             height:50px;
+             width:115px;
+             line-height:35px;
+    top: -4px;
+    left: -6px;
+}
+
+         
+         .menu ul li a
+         {
+             font-size:18px;
+             font-weight:bold;
+             line-height:40px;
+             padding:8px 20px;
+             color: rgb(255,255,255);
+             text-decoration:none;
+             display:block;
+    text-align: center;
+}
+              
+ .menu ul li a:hover
+ {
+     
+     border-right:1px soliod rgb(14,89,130);
+     }
+     
+    .menu ul ul
+    { position:absolute;
+      display:none;
+        }
+        
+        .menu ul li > ul li
+       {
+           background-color:#00CED1;
+
+           color:#edeef8;
+           top: -2px;
+    left: -1px;
+}
+    .menu ul li:hover > ul
+    {
+        display:block;
+        
+    }
+         
+         
+         
+.mitya
+{
+    padding-left: 90px;
+    padding-right: 0px;
+    padding-bottom: 15px;
+    text-align:center;
+}
+         
+    
+     
+.clear
+{
+    clear:both;
+    height: 9px;
+}
+.footer
+{ height:50px;
+  background-color:#D2B48C;
+  color:rgb(255,255,255);
+  
+  
+    }
+    .footer h2
+    { padding:15px;
+      text-align:center;
+        }
+        .xyz
+       {
+           float:left;
+           display:block;
+           list-style:none;
+          --margin-left: 9px;
+         --margin-top: 2px;
+           border-left: none !important;
+           border-right: none !important;
+           position:relative;
+             height:auto;
+             width:155px !important;
+             line-height:35px;
+            top: 0px;
+            left: 0px;
+            border-radius:30px;
+            
+}
+.empty
+{
+    float:left;
+           display:block;
+           list-style:none;
+          --margin-left: 9px;
+         --margin-top: 2px;
+           border-left: none !important;
+           border-right: none !important;
+           position:relative;
+             height:auto;
+             width:90px !important;
+             line-height:35px;
+            top: 0px;
+            left: 0px;
+            border-radius:30px;
+    }
+.xyza
+       {
+           float:left;
+           display:block;
+           list-style:none;
+          margin-left: 9px;
+          margin-right: 10px;
+         margin-top: 2px;
+         text-align:left;
+           border-left: none !important;
+           border-right: none !important;
+           position:relative;
+             height:auto;
+             width:80px;
+             line-height:35px;
+            top: 0px;
+            left: 0px;
+            --border-radius:30px
+}
+.xyzb
+       {
+           float:left;
+           display:block;
+           list-style:none;
+          
+         margin-top: 2px;
+         text-align:right;
+           border-left: none !important;
+           border-right: none !important;
+           position:relative;
+             height:auto;
+             width:70px;
+             line-height:35px;
+            top: 0px;
+            left: 0px;
+            --border-radius:30px
+}
+.icon
+{
+    float:left;
+    display:block;
+    list-style:none;
+    margin-top: 2px;
+    text-align:right;
+    position:relative;
+    height:auto;
+    width:35px;
+    top: -9px;
+    left: -10px;
+}
+.privacy
+{
+    font-size:x-large;
+}
+.icon_cart
+{
+    float:right !important;
+    display:block;
+    list-style:none;
+    margin-top: -15px !important;
+    text-align:right;
+    position:relative;
+    height:auto;
+    width:35px;
+    top: -9px;
+    left: -10px;
+}
+.abcd
+{
+      border-radius: 30px;
+      background-color: #f44336;
+      padding-top:7px;
+      padding-bottom:7px;
+      padding-right:10px;
+      padding-left:10px;
+      margin-top:7px;
+      
+}
+
+.txtbx
+{    
+    border: none !important;
+    border-bottom: 2px solid black !important;
+    background-color: #00CED1 !important;
+}
+    margin-top:5px;
+    
+
+.catbutton
+{
+       /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4096ee+0,4096ee+100;Blue+Flat+%232 */
+background: #4096ee; /* Old browsers */
+background: -moz-linear-gradient(top, #4096ee 0%, #4096ee 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #4096ee 0%,#4096ee 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #4096ee 0%,#4096ee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4096ee', endColorstr='#4096ee',GradientType=0 ); /* IE6-9
+ */ 
+ color: #fff;
+ border:1px solid #fff;
+ font-size: 15px;
+ cursor: pointer;
+}
+
+
+.buy
+{
+    background-color:#b7df2d;
+}

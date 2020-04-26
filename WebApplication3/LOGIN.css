@@ -1,0 +1,132 @@
+﻿body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,textarea,p,block 
+*{
+    padding: 0;
+    margin: 0 0px 0 0;
+}
+body{
+    background-color:rgb(237,237,237);
+    font-family:"Arial",Helvetica,Sans-Serif;
+    font-size:12px;
+}
+
+.wrapper
+{
+    width:950px;
+    margin:auto;
+}
+ .content
+ {
+     width:100%;
+     background-color:rgb(254,254,254);
+     border:1px solid rgb(224,224,224);
+ 
+     float:left;
+     margin-top:10px;
+     margin-bottom:8px;
+     min-height:400px;
+     
+     }   
+     
+     .menu
+     {  background-color:rgb(10,110,178);
+         width:100%;
+         margin:0px 0px 10px;
+         padding:0px;
+         height:140px;
+         color:rgb(243,243,243);
+         
+     }
+     .navigation_first_item
+     {
+         border-left:0px;
+     }
+       
+       .navitem_s 
+       { float:left;
+         border-right:1px solid rgb(10,85,125);
+         border-left:1px solid rgb(67,153,200);
+         height:40px;
+         background-color:rgb(14,79,114);
+         
+        }  
+   .menu ul
+   {    height: auto;
+        width:auto;
+        list-style:none;
+    
+}
+       
+       .menu ul li
+       {
+           float:left;
+           display:block;
+           list-style:none;
+           border-right:1px solid rgb(10,85,125);
+           border-left:1px solid rgb(67,153,200);
+           position:relative;
+             height:auto;
+             width:120px;
+             line-height:35px;
+    top: 0px;
+    left: 0px;
+}
+
+         
+         .menu ul li a
+         {
+             font-size:13px;
+             font-weight:bold;
+             line-height:40px;
+             padding:8px 20px;
+             color: rgb(255,255,255);
+             text-decoration:none;
+             display:block;
+             }
+              
+ .menu ul li a:hover
+ {
+     background-color: rgb(14,79,114);
+     border-right:1px soliod rgb(14,89,130);
+     }
+     
+    .menu ul ul
+    { position:absolute;
+      display:none;
+        }
+        
+        .menu ul li > ul li
+       {
+           background-color:rgb(10,110,178);
+
+           color:#edeef8;
+           top: -2px;
+    left: -1px;
+}
+    .menu ul li:hover > ul
+    {
+        display:block;
+        
+    }
+         
+         
+         
+         
+         
+    
+     
+.clear
+{
+    clear:both;
+    height: 9px;
+}
+.footer
+{ height:50px;
+  background-color:rgb(10,110,178);
+  color:rgb(255,255,255);
+  
+  
+    }
+    .footer h2
+    { padding:15px;
+      text-align:center;
+        }

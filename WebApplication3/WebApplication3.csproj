@@ -1,0 +1,929 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D21A009B-857D-41F6-8F7E-A34485785BD6}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication3</RootNamespace>
+    <AssemblyName>WebApplication3</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=3.0.30512.20315, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="AcerNitroReview.aspx" />
+    <Content Include="AddLaptops.aspx" />
+    <Content Include="addtocart.aspx" />
+    <Content Include="addtocart1.aspx" />
+    <Content Include="addtocart2.aspx" />
+    <Content Include="adfile.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="admindataentry.aspx" />
+    <Content Include="advertise.xml" />
+    <Content Include="ad\mi6proad.jpg" />
+    <Content Include="ad\miA2ad.jpg" />
+    <Content Include="ad\miA21ad.jpg" />
+    <Content Include="ad\OnePlus_6_Marvel_Avengers_Price_in_India_44999_1527564876779.jpg" />
+    <Content Include="ad\Redminote5proadad.jpg" />
+    <Content Include="ad\Redminote5pro1ad.jpg" />
+    <Content Include="ad\Xiaomi-Redmi-4X-Global-Edition-Dual-SIM-Goldadddddddddd.jpeg" />
+    <Content Include="ad\y2addd.jpg" />
+    <Content Include="ad\1.jpg" />
+    <Content Include="ad\2.jpg" />
+    <Content Include="ad\3.jpg" />
+    <Content Include="ad\61oIP0xM6HL._SL1000_.jpg" />
+    <Content Include="ad\61p1eHVhdUL._SL1500_.jpg" />
+    <Content Include="ad\61PwdjxJxML._SL1500_.jpg" />
+    <Content Include="ad\6pro.jpg" />
+    <Content Include="ad\712sDhtCHYL._SL1000_.jpg" />
+    <Content Include="ad\7153tl1KK9L._SL1500_.jpg" />
+    <Content Include="ad\718KsASB4TL._SL1500_.jpg" />
+    <Content Include="ad\71CHbdxfUWL._SL1500_.jpg" />
+    <Content Include="ad\71Eu9+dwChL._SL1500_.jpg" />
+    <Content Include="ad\71LuncVEf-L._SL1500_.jpg" />
+    <Content Include="ad\71obg-8qw-L._SL1000_.jpg" />
+    <Content Include="ad\815zBODjzvL._SL1500_.jpg" />
+    <Content Include="ad\81AsCKGDUKL._SL1500_.jpg" />
+    <Content Include="ad\BRD.jpg" />
+    <Content Include="ad\dell-na-laptop-original-imaf2ysgbmsw7kgz.jpeg" />
+    <Content Include="ad\dell-na-laptop-original-imaf2ysgchs49ahu.jpeg" />
+    <Content Include="ad\dell-na-laptop-original-imaf2ysgfycgm9sg.jpeg" />
+    <Content Include="ad\dell-na-laptop-original-imaf2ysgzemv6ntz.jpeg" />
+    <Content Include="ad\exhdd.jpg" />
+    <Content Include="ad\hp 151.jpg" />
+    <Content Include="ad\hp152.jpg" />
+    <Content Include="ad\hp153.jpg" />
+    <Content Include="ad\hPPD.jpg" />
+    <Content Include="ad\hpSD.jpg" />
+    <Content Include="ad\max21.jpg" />
+    <Content Include="ad\mi4.jpg" />
+    <Content Include="ad\mi5pro.jpg" />
+    <Content Include="ad\mi6pro.jpg" />
+    <Content Include="ad\mi6pro2.jpg" />
+    <Content Include="ad\mia2.jpg" />
+    <Content Include="ad\oneplus6t.jpg" />
+    <Content Include="ad\p1.jpg" />
+    <Content Include="ad\p2.jpg" />
+    <Content Include="ad\p3.jpg" />
+    <Content Include="ad\p4.jpg" />
+    <Content Include="ad\sandisk32.jpg" />
+    <Content Include="ad\sandisksdcard.jpg" />
+    <Content Include="ad\y2.jpg" />
+    <Content Include="ad\y21.jpg" />
+    <Content Include="App_Data\Database1.mdf" />
+    <Content Include="App_Data\Database1_log.ldf">
+      <DependentUpon>Database1.mdf</DependentUpon>
+    </Content>
+    <Content Include="asus1.aspx" />
+    <Content Include="asus1Review.aspx" />
+    <Content Include="BRD.aspx" />
+    <Content Include="BRDReview.aspx" />
+    <Content Include="buylogin.aspx" />
+    <Content Include="buynow.aspx" />
+    <Content Include="BuyNow1.aspx" />
+    <Content Include="BuyNow2.aspx" />
+    <Content Include="buynowaspx.aspx" />
+    <Content Include="BUYNOWFinal.aspx" />
+    <Content Include="BuyNowimages\1.jpg" />
+    <Content Include="BuyNowimages\2.jpg" />
+    <Content Include="BuyNowimages\3.jpg" />
+    <Content Include="BuyNowimages\61oIP0xM6HL._SL1000_.jpg" />
+    <Content Include="BuyNowimages\61p1eHVhdUL._SL1500_.jpg" />
+    <Content Include="BuyNowimages\61PwdjxJxML._SL1500_.jpg" />
+    <Content Include="BuyNowimages\712sDhtCHYL._SL1000_.jpg" />
+    <Content Include="BuyNowimages\7153tl1KK9L._SL1500_.jpg" />
+    <Content Include="BuyNowimages\718KsASB4TL._SL1500_.jpg" />
+    <Content Include="BuyNowimages\71CHbdxfUWL._SL1500_.jpg" />
+    <Content Include="BuyNowimages\71Eu9+dwChL._SL1500_.jpg" />
+    <Content Include="BuyNowimages\71LuncVEf-L._SL1500_.jpg" />
+    <Content Include="BuyNowimages\71obg-8qw-L._SL1000_.jpg" />
+    <Content Include="BuyNowimages\815zBODjzvL._SL1500_.jpg" />
+    <Content Include="BuyNowimages\81AsCKGDUKL._SL1500_.jpg" />
+    <Content Include="BuyNowimages\avatar.png" />
+    <Content Include="BuyNowimages\dell-na-laptop-original-imaf2ysgbmsw7kgz.jpeg" />
+    <Content Include="BuyNowimages\dell-na-laptop-original-imaf2ysgchs49ahu.jpeg" />
+    <Content Include="BuyNowimages\dell-na-laptop-original-imaf2ysgfycgm9sg.jpeg" />
+    <Content Include="BuyNowimages\dell-na-laptop-original-imaf2ysgzemv6ntz.jpeg" />
+    <Content Include="BuyNowimages\hp 151.jpg" />
+    <Content Include="BuyNowimages\hp152.jpg" />
+    <Content Include="BuyNowimages\hp153.jpg" />
+    <Content Include="BuyNowimages\max21.jpg" />
+    <Content Include="BuyNowimages\mi6pro.jpg" />
+    <Content Include="BuyNowimages\mi6pro2.jpg" />
+    <Content Include="BuyNowimages\mia2.jpg" />
+    <Content Include="BuyNowimages\p1.jpg" />
+    <Content Include="BuyNowimages\p2.jpg" />
+    <Content Include="BuyNowimages\p3.jpg" />
+    <Content Include="BuyNowimages\p4.jpg" />
+    <Content Include="BuyNowimages\y21.jpg" />
+    <Content Include="Content\fontawesome.css" />
+    <Content Include="Content\fontawesome.min.css" />
+    <Content Include="CS_Activation.aspx" />
+    <Content Include="DELLVOSTRO.aspx" />
+    <Content Include="DELLVOSTROReview.aspx" />
+    <Content Include="edx8.aspx" />
+    <Content Include="email.aspx" />
+    <Content Include="EXAMLE.aspx" />
+    <Content Include="Examplelogin.aspx" />
+    <Content Include="exhdd.aspx" />
+    <Content Include="exhddReview.aspx" />
+    <Content Include="external_storage.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="HP notebook15.aspx" />
+    <Content Include="HPNotebook15Review.aspx" />
+    <Content Include="hPPD.aspx" />
+    <Content Include="hPPDReview.aspx" />
+    <Content Include="hpSD.aspx" />
+    <Content Include="hpSDReview.aspx" />
+    <Content Include="images\1.jpg" />
+    <Content Include="images\2.jpg" />
+    <Content Include="images\avatar.png" />
+    <Content Include="images\Capture999.PNG" />
+    <Content Include="images\search.PNG" />
+    <Content Include="Laptop.aspx" />
+    <Content Include="lenovoIdeaPad.aspx" />
+    <Content Include="lenovoIdeaPadReview.aspx" />
+    <Content Include="LOGIN.css" />
+    <Content Include="mac.aspx" />
+    <Content Include="macadd.aspx" />
+    <Content Include="main.css" />
+    <Content Include="mi4.aspx" />
+    <Content Include="mi5pro.aspx" />
+    <Content Include="MI5PROReview.aspx" />
+    <Content Include="miA2.aspx" />
+    <Content Include="MIA2_review.aspx" />
+    <Content Include="Mobiles.aspx" />
+    <Content Include="MSI GF63.aspx" />
+    <Content Include="MSI GF63Review.aspx" />
+    <Content Include="oneplus6t.aspx" />
+    <Content Include="OnePlus6TReview.aspx" />
+    <Content Include="otp.aspx" />
+    <Content Include="otp1.aspx" />
+    <Content Include="otp2.aspx" />
+    <Content Include="otp3.aspx" />
+    <Content Include="otp4.aspx" />
+    <Content Include="otp5.aspx" />
+    <Content Include="pin1.aspx" />
+    <Content Include="popup.aspx" />
+    <Content Include="Privacy.aspx" />
+    <Content Include="Product_img\61oIP0xM6HL._SL1000_.jpg" />
+    <Content Include="redmi4_review.aspx" />
+    <Content Include="Registrationaspx.aspx" />
+    <Content Include="review.aspx" />
+    <Content Include="REVIEWMCQ.aspx" />
+    <Content Include="sandisk32.aspx" />
+    <Content Include="sandisk32Review.aspx" />
+    <Content Include="sandisksd.aspx" />
+    <Content Include="sandisksdReview.aspx" />
+    <Content Include="Stylelogin.css" />
+    <Content Include="Styles\1 oEZNMhvw_S24glrG3feyXQ.png" />
+    <Content Include="Styles\cart.JPG" />
+    <Content Include="Styles\czmart.JPG" />
+    <Content Include="Styles\lock.png" />
+    <Content Include="Styles\shopping.jpg" />
+    <Content Include="crazyLogin.aspx" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Styles\Start-Menu-Search-icon.png" />
+    <Content Include="Styles\StyleSheet1.css" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="webfonts\fa-brands-400.svg" />
+    <Content Include="webfonts\fa-regular-400.svg" />
+    <Content Include="webfonts\fa-solid-900.svg" />
+    <Content Include="WebForm1.aspx" />
+    <Content Include="WebForm10.aspx" />
+    <Content Include="WebForm2.aspx" />
+    <Content Include="WebForm3.aspx" />
+    <Content Include="WebForm4.aspx" />
+    <Content Include="WebForm5.aspx" />
+    <Content Include="WebForm6.aspx" />
+    <Content Include="max2.aspx" />
+    <Content Include="pixel.aspx" />
+    <Content Include="WebForm8.aspx" />
+    <Content Include="WebForm9.aspx" />
+    <Content Include="xiomi.aspx" />
+    <Content Include="xiomi_review.aspx" />
+    <Content Include="XMLFile1.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Y2.aspx" />
+    <Content Include="Y2Review.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AcerNitroReview.aspx.cs">
+      <DependentUpon>AcerNitroReview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AcerNitroReview.aspx.designer.cs">
+      <DependentUpon>AcerNitroReview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddLaptops.aspx.cs">
+      <DependentUpon>AddLaptops.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddLaptops.aspx.designer.cs">
+      <DependentUpon>AddLaptops.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="addtocart.aspx.cs">
+      <DependentUpon>addtocart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addtocart.aspx.designer.cs">
+      <DependentUpon>addtocart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="addtocart1.aspx.cs">
+      <DependentUpon>addtocart1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addtocart1.aspx.designer.cs">
+      <DependentUpon>addtocart1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="addtocart2.aspx.cs">
+      <DependentUpon>addtocart2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addtocart2.aspx.designer.cs">
+      <DependentUpon>addtocart2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admindataentry.aspx.cs">
+      <DependentUpon>admindataentry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admindataentry.aspx.designer.cs">
+      <DependentUpon>admindataentry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="asus1.aspx.cs">
+      <DependentUpon>asus1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="asus1.aspx.designer.cs">
+      <DependentUpon>asus1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="asus1Review.aspx.cs">
+      <DependentUpon>asus1Review.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="asus1Review.aspx.designer.cs">
+      <DependentUpon>asus1Review.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BRD.aspx.cs">
+      <DependentUpon>BRD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BRD.aspx.designer.cs">
+      <DependentUpon>BRD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BRDReview.aspx.cs">
+      <DependentUpon>BRDReview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BRDReview.aspx.designer.cs">
+      <DependentUpon>BRDReview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="buylogin.aspx.cs">
+      <DependentUpon>buylogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="buylogin.aspx.designer.cs">
+      <DependentUpon>buylogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="buynow.aspx.cs">
+      <DependentUpon>buynow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="buynow.aspx.designer.cs">
+      <DependentUpon>buynow.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BuyNow1.aspx.cs">
+      <DependentUpon>BuyNow1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BuyNow1.aspx.designer.cs">
+      <DependentUpon>BuyNow1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BuyNow2.aspx.cs">
+      <DependentUpon>BuyNow2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BuyNow2.aspx.designer.cs">
+      <DependentUpon>BuyNow2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="buynowaspx.aspx.cs">
+      <DependentUpon>buynowaspx.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="buynowaspx.aspx.designer.cs">
+      <DependentUpon>buynowaspx.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BUYNOWFinal.aspx.cs">
+      <DependentUpon>BUYNOWFinal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BUYNOWFinal.aspx.designer.cs">
+      <DependentUpon>BUYNOWFinal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="crazyLogin.aspx.cs">
+      <DependentUpon>crazyLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="crazyLogin.aspx.designer.cs">
+      <DependentUpon>crazyLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CS_Activation.aspx.cs">
+      <DependentUpon>CS_Activation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CS_Activation.aspx.designer.cs">
+      <DependentUpon>CS_Activation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DELLVOSTRO.aspx.cs">
+      <DependentUpon>DELLVOSTRO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DELLVOSTRO.aspx.designer.cs">
+      <DependentUpon>DELLVOSTRO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DELLVOSTROReview.aspx.cs">
+      <DependentUpon>DELLVOSTROReview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DELLVOSTROReview.aspx.designer.cs">
+      <DependentUpon>DELLVOSTROReview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="edx8.aspx.cs">
+      <DependentUpon>edx8.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="edx8.aspx.designer.cs">
+      <DependentUpon>edx8.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="email.aspx.cs">
+      <DependentUpon>email.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="email.aspx.designer.cs">
+      <DependentUpon>email.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EXAMLE.aspx.cs">
+      <DependentUpon>EXAMLE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EXAMLE.aspx.designer.cs">
+      <DependentUpon>EXAMLE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Examplelogin.aspx.cs">
+      <DependentUpon>Examplelogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Examplelogin.aspx.designer.cs">
+      <DependentUpon>Examplelogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="exhdd.aspx.cs">
+      <DependentUpon>exhdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="exhdd.aspx.designer.cs">
+      <DependentUpon>exhdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="exhddReview.aspx.cs">
+      <DependentUpon>exhddReview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="exhddReview.aspx.designer.cs">
+      <DependentUpon>exhddReview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="external_storage.aspx.cs">
+      <DependentUpon>external_storage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="external_storage.aspx.designer.cs">
+      <DependentUpon>external_storage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HP notebook15.aspx.cs">
+      <DependentUpon>HP notebook15.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HP notebook15.aspx.designer.cs">
+      <DependentUpon>HP notebook15.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HPNotebook15Review.aspx.cs">
+      <DependentUpon>HPNotebook15Review.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HPNotebook15Review.aspx.designer.cs">
+      <DependentUpon>HPNotebook15Review.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="hPPD.aspx.cs">
+      <DependentUpon>hPPD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hPPD.aspx.designer.cs">
+      <DependentUpon>hPPD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="hPPDReview.aspx.cs">
+      <DependentUpon>hPPDReview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hPPDReview.aspx.designer.cs">
+      <DependentUpon>hPPDReview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="hpSD.aspx.cs">
+      <DependentUpon>hpSD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hpSD.aspx.designer.cs">
+      <DependentUpon>hpSD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="hpSDReview.aspx.cs">
+      <DependentUpon>hpSDReview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hpSDReview.aspx.designer.cs">
+      <DependentUpon>hpSDReview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Laptop.aspx.cs">
+      <DependentUpon>Laptop.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Laptop.aspx.designer.cs">
+      <DependentUpon>Laptop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lenovoIdeaPad.aspx.cs">
+      <DependentUpon>lenovoIdeaPad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lenovoIdeaPad.aspx.designer.cs">
+      <DependentUpon>lenovoIdeaPad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lenovoIdeaPadReview.aspx.cs">
+      <DependentUpon>lenovoIdeaPadReview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lenovoIdeaPadReview.aspx.designer.cs">
+      <DependentUpon>lenovoIdeaPadReview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mac.aspx.cs">
+      <DependentUpon>mac.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mac.aspx.designer.cs">
+      <DependentUpon>mac.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="macadd.aspx.cs">
+      <DependentUpon>macadd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="macadd.aspx.designer.cs">
+      <DependentUpon>macadd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mi4.aspx.cs">
+      <DependentUpon>mi4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mi4.aspx.designer.cs">
+      <DependentUpon>mi4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mi5pro.aspx.cs">
+      <DependentUpon>mi5pro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mi5pro.aspx.designer.cs">
+      <DependentUpon>mi5pro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MI5PROReview.aspx.cs">
+      <DependentUpon>MI5PROReview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MI5PROReview.aspx.designer.cs">
+      <DependentUpon>MI5PROReview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="miA2.aspx.cs">
+      <DependentUpon>miA2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="miA2.aspx.designer.cs">
+      <DependentUpon>miA2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MIA2_review.aspx.cs">
+      <DependentUpon>MIA2_review.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MIA2_review.aspx.designer.cs">
+      <DependentUpon>MIA2_review.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mobiles.aspx.cs">
+      <DependentUpon>Mobiles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mobiles.aspx.designer.cs">
+      <DependentUpon>Mobiles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MSI GF63.aspx.cs">
+      <DependentUpon>MSI GF63.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MSI GF63.aspx.designer.cs">
+      <DependentUpon>MSI GF63.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MSI GF63Review.aspx.cs">
+      <DependentUpon>MSI GF63Review.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MSI GF63Review.aspx.designer.cs">
+      <DependentUpon>MSI GF63Review.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="oneplus6t.aspx.cs">
+      <DependentUpon>oneplus6t.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="oneplus6t.aspx.designer.cs">
+      <DependentUpon>oneplus6t.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OnePlus6TReview.aspx.cs">
+      <DependentUpon>OnePlus6TReview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OnePlus6TReview.aspx.designer.cs">
+      <DependentUpon>OnePlus6TReview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="otp.aspx.cs">
+      <DependentUpon>otp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="otp.aspx.designer.cs">
+      <DependentUpon>otp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="otp1.aspx.cs">
+      <DependentUpon>otp1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="otp1.aspx.designer.cs">
+      <DependentUpon>otp1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="otp2.aspx.cs">
+      <DependentUpon>otp2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="otp2.aspx.designer.cs">
+      <DependentUpon>otp2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="otp3.aspx.cs">
+      <DependentUpon>otp3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="otp3.aspx.designer.cs">
+      <DependentUpon>otp3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="otp4.aspx.cs">
+      <DependentUpon>otp4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="otp4.aspx.designer.cs">
+      <DependentUpon>otp4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="otp5.aspx.cs">
+      <DependentUpon>otp5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="otp5.aspx.designer.cs">
+      <DependentUpon>otp5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pin1.aspx.cs">
+      <DependentUpon>pin1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pin1.aspx.designer.cs">
+      <DependentUpon>pin1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="popup.aspx.cs">
+      <DependentUpon>popup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="popup.aspx.designer.cs">
+      <DependentUpon>popup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Privacy.aspx.cs">
+      <DependentUpon>Privacy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Privacy.aspx.designer.cs">
+      <DependentUpon>Privacy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="redmi4_review.aspx.cs">
+      <DependentUpon>redmi4_review.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="redmi4_review.aspx.designer.cs">
+      <DependentUpon>redmi4_review.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Registrationaspx.aspx.cs">
+      <DependentUpon>Registrationaspx.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registrationaspx.aspx.designer.cs">
+      <DependentUpon>Registrationaspx.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="review.aspx.cs">
+      <DependentUpon>review.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="review.aspx.designer.cs">
+      <DependentUpon>review.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REVIEWMCQ.aspx.cs">
+      <DependentUpon>REVIEWMCQ.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REVIEWMCQ.aspx.designer.cs">
+      <DependentUpon>REVIEWMCQ.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sandisk32.aspx.cs">
+      <DependentUpon>sandisk32.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sandisk32.aspx.designer.cs">
+      <DependentUpon>sandisk32.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sandisk32Review.aspx.cs">
+      <DependentUpon>sandisk32Review.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sandisk32Review.aspx.designer.cs">
+      <DependentUpon>sandisk32Review.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sandisksd.aspx.cs">
+      <DependentUpon>sandisksd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sandisksd.aspx.designer.cs">
+      <DependentUpon>sandisksd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sandisksdReview.aspx.cs">
+      <DependentUpon>sandisksdReview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sandisksdReview.aspx.designer.cs">
+      <DependentUpon>sandisksdReview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="TextBox1.cs" />
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm10.aspx.cs">
+      <DependentUpon>WebForm10.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm10.aspx.designer.cs">
+      <DependentUpon>WebForm10.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm2.aspx.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm2.aspx.designer.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm3.aspx.cs">
+      <DependentUpon>WebForm3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm3.aspx.designer.cs">
+      <DependentUpon>WebForm3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm4.aspx.cs">
+      <DependentUpon>WebForm4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm4.aspx.designer.cs">
+      <DependentUpon>WebForm4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm5.aspx.cs">
+      <DependentUpon>WebForm5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm5.aspx.designer.cs">
+      <DependentUpon>WebForm5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm6.aspx.cs">
+      <DependentUpon>WebForm6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm6.aspx.designer.cs">
+      <DependentUpon>WebForm6.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="max2.aspx.cs">
+      <DependentUpon>max2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="max2.aspx.designer.cs">
+      <DependentUpon>max2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pixel.aspx.cs">
+      <DependentUpon>pixel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pixel.aspx.designer.cs">
+      <DependentUpon>pixel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm8.aspx.cs">
+      <DependentUpon>WebForm8.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm8.aspx.designer.cs">
+      <DependentUpon>WebForm8.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm9.aspx.cs">
+      <DependentUpon>WebForm9.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm9.aspx.designer.cs">
+      <DependentUpon>WebForm9.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="xiomi.aspx.cs">
+      <DependentUpon>xiomi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="xiomi.aspx.designer.cs">
+      <DependentUpon>xiomi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="xiomi_review.aspx.cs">
+      <DependentUpon>xiomi_review.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="xiomi_review.aspx.designer.cs">
+      <DependentUpon>xiomi_review.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Y2.aspx.cs">
+      <DependentUpon>Y2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Y2.aspx.designer.cs">
+      <DependentUpon>Y2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Y2Review.aspx.cs">
+      <DependentUpon>Y2Review.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Y2Review.aspx.designer.cs">
+      <DependentUpon>Y2Review.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site1.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="advertise\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="webfonts\fa-brands-400.eot" />
+    <None Include="webfonts\fa-brands-400.ttf" />
+    <None Include="webfonts\fa-brands-400.woff" />
+    <None Include="webfonts\fa-brands-400.woff2" />
+    <None Include="webfonts\fa-regular-400.eot" />
+    <None Include="webfonts\fa-regular-400.ttf" />
+    <None Include="webfonts\fa-regular-400.woff" />
+    <None Include="webfonts\fa-regular-400.woff2" />
+    <None Include="webfonts\fa-solid-900.eot" />
+    <None Include="webfonts\fa-solid-900.ttf" />
+    <None Include="webfonts\fa-solid-900.woff" />
+    <None Include="webfonts\fa-solid-900.woff2" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50954</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>advertise\OnePlus_6_Marvel_Avengers_Price_in_India_44999_1527564876779.jpg</ImageUrl>
+    <NavigateUrl>WebApplication3\xiomi.aspx</NavigateUrl>
+    <AlternateText>
+      REDMI NOTE 6 PRO
+    </AlternateText>
+    <Impressions>20</Impressions>
+    <Keyword>flowers</Keyword>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>advertise\y2.jpg</ImageUrl>
+    <NavigateUrl></NavigateUrl>
+    <AlternateText>Order roses and flowers</AlternateText>
+    <Impressions>20</Impressions>
+    <Keyword>gifts</Keyword>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>advertise\miA21.jpg</ImageUrl>
+    <NavigateUrl>http://www.flowers2moscow.com</NavigateUrl>
+    <AlternateText>Send flowers to Russia</AlternateText>
+    <Impressions>20</Impressions>
+    <Keyword>russia</Keyword>
+  </Ad>
+</Advertisements>

@@ -1,0 +1,73 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication3.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />        
+
+    <link href="Content/fontawesome.css" rel="stylesheet" type="text/css" />
+     <asp:ContentPlaceHolder ID="title" runat="server">
+         
+        </asp:ContentPlaceHolder>
+                <link href="main.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .bttn
+        {}
+        .txtbx
+        {}
+        </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="wrapper">
+    <div class="menu">
+        <asp:Image ID="Image1" runat="server" Height="84px" Width="139px" img src="Styles/czmart.JPG" />
+        
+            <asp:Label ID="Label1" runat="server" Font-Bold="False" Font-Italic="True" 
+            Font-Names="MV Boli" Font-Size="XX-Large" style="text-align: center; margin-top: 0px;" 
+            Text="CZMART.COM" Width="542px" CssClass="mitya" Height="52px"></asp:Label>
+            
+        <ul>
+    <li class="navigation navigation_first_item" ><a href="Home.aspx">Home</a></li>
+    <li><a href="">category</a>
+         <ul>
+              <li><a href="Mobiles.aspx">Mobiles</a></li>
+               <li><a href="external_storage.aspx">Storage Device</a></li>
+               <li><a href="WebForm3.aspx">Laptops</a></li>
+           </ul>
+   </li>
+    <li><a href="crazyLogin.aspx">Login</a></li>
+    <li>
+            </li>
+            <li class="empty">
+            </li>
+            <li class="xyz">
+        <asp:TextBox ID="TextBox2" runat="server" Width="105px" Height="25px" 
+            CssClass="txtbx" style="margin-top:10px;" /><asp:ImageButton runat="server" src="images/search.PNG" ID="imgsearch" OnClick="ImageButton2_Click"></asp:ImageButton></li>
+            
+                    <li class="xyzb">
+                    <a href="Privacy.aspx"><div class="icon"><i class="fas fa-3x fa-user-lock" style="font-size:xx-large"></i> </div></a><a href="addtocart.aspx"><div class="icon_cart"><i class="fas fa-3x fa-shopping-cart" style="font-size:xx-large"></i></div></a>
+                    </li>
+                    
+                <li class="xyzb">     
+                    
+                    <asp:ImageButton ID="ImageButton1" runat="server" src="images/Capture999.PNG" OnClick="Button1_Click"/></asp:ImageButton>
+            </li>
+            
+     </div>
+    <div class="content">
+        <asp:ContentPlaceHolder ID="Contentbody" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <div class="clear"></div>
+    <div class="footer">
+    <h2>copyright@czMart.com</h2>
+    </div>
+    </div>
+    </form>
+</body>
+</html>

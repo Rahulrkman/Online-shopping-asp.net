@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>ad\OnePlus_6_Marvel_Avengers_Price_in_India_44999_1527564876779.jpg</ImageUrl>
+    <NavigateUrl>\xiomi.aspx</NavigateUrl>
+    <AlternateText>
+      REDMI NOTE 6 PRO
+    </AlternateText>
+    <Impressions>20</Impressions>
+    <Keyword>flowers</Keyword>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>ad\mi6proad.jpg</ImageUrl>
+    <NavigateUrl>\Mobiles.aspx</NavigateUrl>
+    <AlternateText>Order roses and flowers</AlternateText>
+    <Impressions>20</Impressions>
+    <Keyword>gifts</Keyword>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>ad\miA21ad.jpg</ImageUrl>
+    <NavigateUrl>\Mobiles.aspx</NavigateUrl>
+    <AlternateText>Send flowers to Russia</AlternateText>
+    <Impressions>20</Impressions>
+    <Keyword>russia</Keyword>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>ad\Xiaomi-Redmi-4X-Global-Edition-Dual-SIM-Goldadddddddddd.jpeg</ImageUrl>
+    <NavigateUrl>\Mobiles.aspx</NavigateUrl>
+    <AlternateText>Edible Blooms</AlternateText>
+    <Impressions>20</Impressions>
+    <Keyword>gifts</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>ad\Redminote5pro1ad.jpg</ImageUrl>
+    <NavigateUrl>\Mobiles.aspx</NavigateUrl>
+    <AlternateText>Edible Blooms</AlternateText>
+    <Impressions>20</Impressions>
+    <Keyword>gifts</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>ad\y2addd.jpg</ImageUrl>
+    <NavigateUrl>\Mobiles.aspx</NavigateUrl>
+    <AlternateText>Edible Blooms</AlternateText>
+    <Impressions>20</Impressions>
+    <Keyword>gifts</Keyword>
+  </Ad>
+  
+  
+</Advertisements>

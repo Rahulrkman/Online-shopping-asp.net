@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Advertisements>
+  <ad>
+    <ImageUrl>advertise\OnePlus_6_Marvel_Avengers_Price_in_India_44999_1527564876779.jpg</ImageUrl>
+    <navigateUrl></navigateUrl>
+    </ad>
+  <ad>
+    <ImageUrl>advertise\Redminote5pro1.jpg</ImageUrl>
+    <navigateUrl>D:\WebApplication3\WebApplication3\WebForm2.aspx</navigateUrl>
+  </ad>
+  <ad>
+    <ImageUrl>advertise\miA21.jpg</ImageUrl>
+    <navigateUrl></navigateUrl>
+  </ad>
+  </Advertisements>

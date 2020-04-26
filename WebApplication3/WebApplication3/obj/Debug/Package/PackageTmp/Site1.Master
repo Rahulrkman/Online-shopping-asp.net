@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication3.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>
+       
+        
+     <asp:ContentPlaceHolder ID="title" runat="server">
+         
+        </asp:ContentPlaceHolder></title>
+                <link href="Styles/StyleSheet1.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="wrapper">
+    <div class="menu">
+    <ul>
+    <li class="navigation navigation_first_item"><a href="WebForm2.aspx">Home</a></li>
+    <li><a href="#WebForm3.aspx">catogary</a></li>
+    <li><a href="#">contact us</a></li>
+    <li><a href="#">about us</a></li>
+    </ul>
+     </div>
+     <div class="clear"></div>
+    <div class="content">
+        <asp:ContentPlaceHolder ID="Contentbody" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <div class="clear"></div>
+    <div class="footer">
+    <h2>copyright@crazy4.com</h2>
+    </div>
+    </div>
+    </form>
+</body>
+</html>
